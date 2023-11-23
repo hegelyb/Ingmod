@@ -1,0 +1,38 @@
+#startparam
+Tx 0.5 20
+T0 22.5 27.5
+ccu 0.001 0.1
+cfe 0.12 0.3
+dEdT -1e-3 -1e-6
+K 1e20 1e24
+e0fe -0.6 -0.3
+e0cu 0.3 0.6
+#endparam
+
+#nq=3
+#startq1 1
+0
+\( \text{Fe}^{2+} + 2 ~\text{e}^- \longrightarrow \text{Fe} \hphantom{kkk}  \\ \varepsilon_{c} = \varepsilon^{\circ}_{c} - \frac{RT}{zF} \text{ln} a_{\text{Fe}^{2+}} \)
+0
+\( \text{Fe}^{2+} + 2 ~\text{e}^- \longrightarrow \text{Fe} \hphantom{kkk} \\ \varepsilon_{c} = \varepsilon^{\circ}_{c} - \frac{RT}{zF} \text{ln} \frac{1}{a_{\text{Fe}^{2+}}} \)
+0
+\( \text{Cu}^{2+} + 2 ~\text{e}^- \longrightarrow \text{Cu} \hphantom{kkk} \\ \varepsilon_{c} = \varepsilon^{\circ}_{c} - \frac{RT}{zF} \text{ln} a_{\text{Cu}^{2+}} \)
+100
+\( \text{Cu}^{2+} + 2 ~\text{e}^- \longrightarrow \text{Cu} \hphantom{kkk} \\ \varepsilon_{c} = \varepsilon^{\circ}_{c} - \frac{RT}{zF} \text{ln} \frac{1}{a_{\text{Cu}^{2+}}} \)
+#endq1
+#startq2 1
+100
+\( \text{Fe} \longrightarrow \text{Fe}^{2+} + 2 ~\text{e}^{-} \hphantom{kkk} \\  \varepsilon_{a} = \varepsilon^{\circ}_{a} - \frac{RT}{zF} \text{ln} \frac{1}{a_{\text{Fe}^{2+}}} \)
+0
+\( \text{Fe} \longrightarrow \text{Fe}^{2+} + 2 ~\text{e}^- \hphantom{kkk} \\ \varepsilon_{a} = \varepsilon^{\circ}_{a} - \frac{RT}{zF} \text{ln} a_{\text{Fe}^{2+}} \)
+0
+\( \text{Cu} \longrightarrow \text{Cu}^{2+} + 2 ~\text{e}^{-} \hphantom{kkk} \\ \varepsilon_{a} = \varepsilon^{\circ}_{a} - \frac{RT}{zF} \text{ln} \frac{1}{a_{\text{Cu}^{2+}}} \)
+0
+\( \text{Cu} \longrightarrow \text{Cu}^{2+} + 2 ~\text{e}^- \hphantom{kkk} \\ \varepsilon_{a} = \varepsilon^{\circ}_{a} - \frac{RT}{zF} \text{ln} a_{\text{Cu}^{2+}} \)
+#endq2
+#startq3 1
+0
+\( \text{Fe}^{2+} + \text{Cu} \longrightarrow \text{Fe} + \text{Cu}^{2+} \)
+100
+\( \text{Fe} + \text{Cu}^{2+} \longrightarrow \text{Fe}^{2+} + \text{Cu} \)
+#endq3

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 14927  -->
+  <question type="cloze">
+    <name>
+      <text>INGMOD-TASKID - INGMOD-TASKNUM - INGMOD-TASKNAME</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+<p>
+    Electrochemistry (10 points) 
+</p>
+<p>
+    Warning! The correct form of the scientific notation is 1000 = e3;  1234 = 1.234e3; 0.1234 = 1.234e-1<br>
+</p>
+<p>
+    We construct the following galvanic cell which operates at INGMOD_Tx \(^\circ\) C: 
+    a copper plate is dipped into a copper-sulfate solution ( c\(_{\text{Cu}^{2+}}\) = INGMOD_ccu mol/dm<sup>3</sup> ), 
+    and an iron plate is immersed into an iron-sulfate solution (c\(_{\text{Fe}^{2+}}\) = INGMOD_cfe 
+    mol/dm\(^3\)).
+</p>
+<p>
+    What will be the cell reaction if we connect the two half cells? Justify your answer!<br>
+</p>
+<p>
+    What will be the Gibbs free energy, the enthalpy, and entropy change at INGMOD_Tx \(^\circ\)C ?<br><br>
+</p>
+<p>
+    \( (\frac{dE}{dT})_{p} \) = INGMOD_dEdT V/K, K\(_{ INGMOD_Tx ^{\circ}\text{C} } \) = INGMOD_K , 
+    the mean activity coefficient is one, standard electrode potentials at INGMOD_T0 \(^{\circ}\)C : 
+    \( \varepsilon_{\text{Fe/Fe}^{2+}}^{\circ} = INGMOD_e0fe \) V and 
+    \( \varepsilon_{\text{Cu/Cu}^{2+}}^{\circ} = INGMOD_e0cu \) V. (F = \( 96485 \) C/mol, R = \( 8,314 \) J/(molK), 
+    p\(^\circ\) = \( 100 \) kPa, 0\(^\circ\)C = \( 273,15 \) K)
+</p>
+<p>
+    Please calculate the following quantities and answer to the questions:<br>
+</p>
+<p>
+    a) What is the cathode reaction and its Nernst equation? (1 point)<br>
+</p>
+<p> 
+    INGMOD_qt1 <br> INGMOD_qp1 
+</p>
+<p>
+    b) What is the anode reaction and its Nernst equation? (1 point)<br>
+</p>
+<p> 
+    INGMOD_qt2 <br> INGMOD_qp2 <br>
+</p>
+<p>
+    c) What is the overall reaction in the galvanic cell? (1 point)<br>
+</p>
+<p>
+    INGMOD_qt3 <br> INGMOD_qp3 
+</p> 
+<p> 
+    d) How would you justify your answer you gave in question c) ? (1 point)<br>
+</p>
+<p>
+    {1:MCS:
+    <br>
+    ~%0% 
+    The difference of standard electrode potentials is large and the temperature dependence of the electromotive force is large
+    <br>
+    ~%0% 
+    The difference of standard electrode potentials is small and the temperature dependence of the electromotive force is small
+    <br>
+    ~%0% 
+    The difference of standard electrode potentials is small and the temperature dependence of the electromotive force is large
+    <br>
+    ~%100% The difference of standard electrode potentials is large and the temperature dependence of the electromotive force is small
+    }
+</p>
+<p>
+    e) When the battery is discharged at INGMOD_Tx \(^{\circ}\)C , what will be the \( \text{Cu}^{2+}/\text{Fe}^{2+} \) activity ratio? (1 point)<br>
+</p>
+<p>
+    {1:NM:%100%INGMOD_invK:INGMODVAR_invK}
+</p>
+<p>
+    g) What is the electromotive force at INGMOD_Tx \({^\circ}\)C ? Please give the answer in V! (2 points)<br>
+</p>
+<p>
+    {2:NM:%100%INGMOD_E:INGMODVAR_E}
+</p>
+<p>
+    h) What is the Gibbs free energy change of the reaction at INGMOD_Tx \(^{\circ}\)C ? Please give the answer in kJ/mol (1 point)<br>
+</p>
+<p>
+    {1:NM:%100%INGMOD_drG:INGMODVAR_drG}
+</p>
+<p>
+    i) What is the enthalpy change of the reaction at INGMOD_Tx \(^{\circ}\)C ? Please give the answer in kJ/mol (1 point)<br>
+</p>
+<p>
+    {1:NM:%100%INGMOD_drH:INGMODVAR_drH}
+</p>
+<p>
+    j) What is the entropy change of the reaction at INGMOD_Tx \(^{\circ}\)C ? Please give the answer in J/(molK) (1 point)<br>
+</p>
+<p>
+    {1:NM:%100%INGMOD_drS:INGMODVAR_drS}
+</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <idnumber>INGMOD-TASKID - INGMOD-TASKNUM</idnumber>
+  </question>
+
+</quiz>

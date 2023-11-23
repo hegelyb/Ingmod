@@ -1,0 +1,10 @@
+taskname="Task 4 (10 points)"
+param=sample.param
+xmltemp=sample.xmltemp
+calc_script=sample.py
+taskid=20141215-4
+verbosity=1
+ntasks=3
+task_startnum=1
+numberform=dot
+reject1="E < 0.0"

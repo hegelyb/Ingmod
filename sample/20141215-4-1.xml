@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 14927  -->
+  <question type="cloze">
+    <name>
+      <text>20141215-4 - 1 - "Task 4 (10 points)"</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+<p>
+    Electrochemistry (10 points) 
+</p>
+<p>
+    Warning! The correct form of the scientific notation is 1000 = e3;  1234 = 1.234e3; 0.1234 = 1.234e-1<br>
+</p>
+<p>
+    We construct the following galvanic cell which operates at 18.41 \(^\circ\) C: 
+    a copper plate is dipped into a copper-sulfate solution ( c\(_{\text{Cu}^{2+}}\) = 0.0480 mol/dm<sup>3</sup> ), 
+    and an iron plate is immersed into an iron-sulfate solution (c\(_{\text{Fe}^{2+}}\) = 0.151 
+    mol/dm\(^3\)).
+</p>
+<p>
+    What will be the cell reaction if we connect the two half cells? Justify your answer!<br>
+</p>
+<p>
+    What will be the Gibbs free energy, the enthalpy, and entropy change at 18.41 \(^\circ\)C ?<br><br>
+</p>
+<p>
+    \( (\frac{dE}{dT})_{p} \) = -7.5587e-4 V/K, K\(_{ 18.41 ^{\circ}\text{C} } \) = 9.6631e22 , 
+    the mean activity coefficient is one, standard electrode potentials at 24.99 \(^{\circ}\)C : 
+    \( \varepsilon_{\text{Fe/Fe}^{2+}}^{\circ} = -0.45 \) V and 
+    \( \varepsilon_{\text{Cu/Cu}^{2+}}^{\circ} = 0.55 \) V. (F = \( 96485 \) C/mol, R = \( 8,314 \) J/(molK), 
+    p\(^\circ\) = \( 100 \) kPa, 0\(^\circ\)C = \( 273,15 \) K)
+</p>
+<p>
+    Please calculate the following quantities and answer to the questions:<br>
+</p>
+<p>
+    a) What is the cathode reaction and its Nernst equation? (1 point)<br>
+</p>
+<p> 
+      1: <br> \( \text{Fe}^{2+} + 2 ~\text{e}^- \longrightarrow \text{Fe} \hphantom{kkk}  \\ \varepsilon_{c} = \varepsilon^{\circ}_{c} - \frac{RT}{zF} \text{ln} a_{\text{Fe}^{2+}} \) <br> 2: <br> \( \text{Fe}^{2+} + 2 ~\text{e}^- \longrightarrow \text{Fe} \hphantom{kkk} \\ \varepsilon_{c} = \varepsilon^{\circ}_{c} - \frac{RT}{zF} \text{ln} \frac{1}{a_{\text{Fe}^{2+}}} \) <br> 3: <br> \( \text{Cu}^{2+} + 2 ~\text{e}^- \longrightarrow \text{Cu} \hphantom{kkk} \\ \varepsilon_{c} = \varepsilon^{\circ}_{c} - \frac{RT}{zF} \text{ln} \frac{1}{a_{\text{Cu}^{2+}}} \) <br> 4: <br> \( \text{Cu}^{2+} + 2 ~\text{e}^- \longrightarrow \text{Cu} \hphantom{kkk} \\ \varepsilon_{c} = \varepsilon^{\circ}_{c} - \frac{RT}{zF} \text{ln} a_{\text{Cu}^{2+}} \) <br> <br> {1:MCS:%0% 1~%0% 2~%100% 3~%0% 4~ } 
+</p>
+<p>
+    b) What is the anode reaction and its Nernst equation? (1 point)<br>
+</p>
+<p> 
+      1: <br> \( \text{Cu} \longrightarrow \text{Cu}^{2+} + 2 ~\text{e}^{-} \hphantom{kkk} \\ \varepsilon_{a} = \varepsilon^{\circ}_{a} - \frac{RT}{zF} \text{ln} \frac{1}{a_{\text{Cu}^{2+}}} \) <br> 2: <br> \( \text{Fe} \longrightarrow \text{Fe}^{2+} + 2 ~\text{e}^{-} \hphantom{kkk} \\  \varepsilon_{a} = \varepsilon^{\circ}_{a} - \frac{RT}{zF} \text{ln} \frac{1}{a_{\text{Fe}^{2+}}} \) <br> 3: <br> \( \text{Cu} \longrightarrow \text{Cu}^{2+} + 2 ~\text{e}^- \hphantom{kkk} \\ \varepsilon_{a} = \varepsilon^{\circ}_{a} - \frac{RT}{zF} \text{ln} a_{\text{Cu}^{2+}} \) <br> 4: <br> \( \text{Fe} \longrightarrow \text{Fe}^{2+} + 2 ~\text{e}^- \hphantom{kkk} \\ \varepsilon_{a} = \varepsilon^{\circ}_{a} - \frac{RT}{zF} \text{ln} a_{\text{Fe}^{2+}} \) <br> <br> {1:MCS:%0% 1~%100% 2~%0% 3~%0% 4~ } <br>
+</p>
+<p>
+    c) What is the overall reaction in the galvanic cell? (1 point)<br>
+</p>
+<p>
+      1: <br> \( \text{Fe} + \text{Cu}^{2+} \longrightarrow \text{Fe}^{2+} + \text{Cu} \) <br> 2: <br> \( \text{Fe}^{2+} + \text{Cu} \longrightarrow \text{Fe} + \text{Cu}^{2+} \) <br> <br> {1:MCS:%100% 1~%0% 2~ } 
+</p> 
+<p> 
+    d) How would you justify your answer you gave in question c) ? (1 point)<br>
+</p>
+<p>
+    {1:MCS:
+    <br>
+    ~%0% 
+    The difference of standard electrode potentials is large and the temperature dependence of the electromotive force is large
+    <br>
+    ~%0% 
+    The difference of standard electrode potentials is small and the temperature dependence of the electromotive force is small
+    <br>
+    ~%0% 
+    The difference of standard electrode potentials is small and the temperature dependence of the electromotive force is large
+    <br>
+    ~%100% The difference of standard electrode potentials is large and the temperature dependence of the electromotive force is small
+    }
+</p>
+<p>
+    e) When the battery is discharged at 18.41 \(^{\circ}\)C , what will be the \( \text{Cu}^{2+}/\text{Fe}^{2+} \) activity ratio? (1 point)<br>
+</p>
+<p>
+    {1:NM:%100%1.0348603000e-23:5.1743015000e-25}
+</p>
+<p>
+    g) What is the electromotive force at 18.41 \({^\circ}\)C ? Please give the answer in V! (2 points)<br>
+</p>
+<p>
+    {2:NM:%100%6.5043329147e-01:3.2521664573e-02}
+</p>
+<p>
+    h) What is the Gibbs free energy change of the reaction at 18.41 \(^{\circ}\)C ? Please give the answer in kJ/mol (1 point)<br>
+</p>
+<p>
+    {1:NM:%100%-1.2551411225e+02:6.2757056127e+00}
+</p>
+<p>
+    i) What is the enthalpy change of the reaction at 18.41 \(^{\circ}\)C ? Please give the answer in kJ/mol (1 point)<br>
+</p>
+<p>
+    {1:NM:%100%-1.6804100953e+02:8.4020504763e+00}
+</p>
+<p>
+    j) What is the entropy change of the reaction at 18.41 \(^{\circ}\)C ? Please give the answer in J/(molK) (1 point)<br>
+</p>
+<p>
+    {1:NM:%100%-1.4585984796e+02:7.2929923980e+00}
+</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <idnumber>20141215-4 - 1</idnumber>
+  </question>
+
+</quiz>
